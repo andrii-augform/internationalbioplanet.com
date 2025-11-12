@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International BioPlanet – Coming Soon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7; /* Light gray background */
+            color: #333; /* Dark text color for contrast */
+        }
+        header {
+            background-color: #ffffff; /* Green background for header */
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo img {
+            height: 80px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+        .region-select select {
+            padding: 5px;
+            font-size: 16px;
+            margin-left: 20px;
+            background-color: white;
+            color: #333;
+            border: 1px solid #4CAF50; /* Green border */
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #ffffff; /* White background */
+        }
+        .hero h1 {
+            font-size: 36px;
+            color: #4CAF50; /* Green heading to match the logo */
+        }
+        .hero p {
+            font-size: 20px;
+            color: #555; /* Light gray text */
+        }
+        .cta-button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .region-select img {
+            width: 20px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="https://bioplanet.bg/client_theme/207/images/logo.png" alt="BioPlanet Logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="region-select">
+            <select onchange="window.location.href=this.value">
+                <option value="https://bioplanet.bg">Bulgaria (BG)</option>
+                <option value="http://internationalbioplanet.eu">Europe (EU)</option>
+                <option value="http://internationalbioplanet.com" selected>Global</option>
+            </select>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <h1>Welcome to International BioPlanet – A New Era of Sustainability</h1>
+        <p>Our mission is to revolutionize the way we interact with our environment. Stay tuned for more information.</p>
+        <a href="#learnmore" class="cta-button">Learn More (Under Construction)</a>
+    </section>
+</main>
+
+<footer>
+    <p>Contact us at: <a href="mailto:office@bioplanet.bg">office@bioplanet.bg</a></p>
+    <p>&copy; 2025 International BioPlanet Ltd. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
